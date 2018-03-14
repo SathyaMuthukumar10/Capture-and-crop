@@ -66,7 +66,7 @@ while(True):
 		break
     #---------------- save image---------------------
 	elif key == ord('s'):  
-		cv2.imwrite( ".jpg", result );
+		cv2.imwrite( "Crop.jpg", result );
     #---------------------cropping-------------------     
 	elif (key == ord('k')) and (2==len(refPt)):  
 		use_cropping = not use_cropping
